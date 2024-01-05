@@ -1,0 +1,70 @@
+/* Réinitialisation du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   /* Styles généraux */
+   body {
+    font-family: Arial, sans-serif;
+   }
+   
+   /* En-tête */
+   header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   }
+   
+   /* Logo et titre */
+   .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+   }
+
+      /* Barre latérale */
+      .aside-container {
+        width: 30%;
+        }
+     
+        aside {
+        border: 1px solid green;
+        background-color: lightgreen;
+        }
+     
+        /* Espacements et bordures arrondies */
+        section, aside, article {
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        }
+           /* Typography */
+   body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+ 
+    h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    }
+ 
+    /* Colors */
+    body {
+    background-color: #ffffff;
+    }
+ 
+    a {
+    color: #f00;
+    text-decoration: none;
+    }
+ 
+    /* Layout */
+       
